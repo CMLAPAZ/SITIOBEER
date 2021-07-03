@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerveceria X</title>
+    <link rel="stylesheet" href="css/Cerveceria.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap "rel =" stylesheet ">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+    
+</head>
+<body>
+    <nav class="navbar navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Cerveceria X</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Novedades</a>
+            <a class="nav-link" href="#">Historia</a>
+            <a class="nav-link" href="#">Conócenos</a>
+          </div>
+        </div>
+    </nav>
+        <div> class = "container-fluid"
+            <div id = "name" class = "row align_item_center hero">
+                <div class = "col-lg-3 offset-lg-2">
+                <p>Bajada</p>
+                <h1>Titulo Principal</h1>
+                </p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ut suscipit ducimus distinctio impedit explicabo, ex fugit, eum adipisci voluptatibus autem temporibus aspernatur totam perferendis laudantium, cum accusantium deleniti facilis?</p>
+                </div>
+            </div>
+            <!--Novedades-->
+            <div id ="novedades" class="row py-4">
+                <div class="col-md-5 offset-md-2 py-3">
+                    <h2>Novedades</h2>
+                    <ul class="lista-novedades">
+                        <li><a data-toggle="modal" data-target="#exampleModal" href="#"><img src="img/novedades01.jpg">
+                        Nuevas recetas</a></li>
+                        <li><a href="#"><img src="img/novedades01.jpg">
+                        Nuevas recetas</a></li>
+                        <li><a href="#"><img src="img/novedades01.jpg">
+                        Nuevas recetas</a></li>
+                        <li><a href="#"><img src="img/novedades01.jpg">
+                        Nuevas recetas</a></li>
+                        <li><a href="#"><img src="img/novedades01.jpg">
+                        Nuevas recetas</a></li>
+                    </ul>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Titulo Modal</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. At beatae neque explicabo, odio quidem magni eius esse! Ducimus impedit ullam, omnis voluptatibus exercitationem numquam nemo ab sed, quasi culpa nesciunt.
+                            </div>  
+                        </div>
+                    </div>
+                </div><!--fin del modal-->
+                <!--Testimonios-->
+                <div class="col-md-3">
+                    <div class="rounded py-3 testimonios">
+                        <h2 class="text-center"> Testimonios</h2>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                            <div class="testimonio">
+                                <h5>La Mejor birra del Mundo!!</h5>
+                                <p>Iván Marusich</p>
+                            </div>
+                        </div>
+                    
+                        <div class="carousel-item">
+                            <Div class="testimonio">
+                                <h5>La Mejor birra !!</h5>
+                                <p>Adolfo Miño</p>
+                            </Div>
+                        </div>
+                    
+                        <div class="carousel-item">
+                            <Div class="testimonio">
+                                <h5>La Mejor!!</h5>
+                                <p>Camila Jaime</p>
+                            </Div>
+                        </div>
+                    </div>
+                        <!--carrusel-->
+                    
+                        <a class="carousel-control-prev"
+                             href="#carouselExampleIndicators" role="button" 
+                            data-slide="prev">
+                        <span class="carousel-control-prev-icon" 
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" 
+                        href="#carouselExampleIndicators" role="button" 
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" 
+                        aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                </div><!--fin testimonio-->
+            </div> <!--fin novedad-->
+         </div>
+</div>
+      <footer>
+          <p class="text-center">Diseñado por: Carola Martin 2021</p>
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>   
+</body>
+</html>

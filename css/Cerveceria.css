@@ -55,8 +55,8 @@ h1, h2{
     text-align: center;
     padding:  50px 20px;
 }
-.carousel-control-prev-icon:after,
-.carousel-control-next-icon:after {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
         background-image: none;
 }
 
@@ -75,4 +75,7 @@ h1, h2{
 }
 .carousel-indicators li {
     background-color: #000;
+}   
+.staff{
+    background: #efefef ;
 }
